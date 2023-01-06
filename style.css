@@ -67,7 +67,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px white;
 }
 
 #button-container {
@@ -80,4 +80,36 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+#first-game:hover {
+    background-color: rgba(255, 217, 0, 0.577);
+    color: white;
+}
+
+#second-game:hover {
+    background-color: silver;
+    color: white;
+}
+
+.header a:hover {
+    background-color: lightslategray;
+    color: white;
+}
+
+.header a {
+    font-family: 'Cabin';
+    float: left;
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 1%;
+    font-size: 20px;
 }
