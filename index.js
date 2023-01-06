@@ -47,7 +47,7 @@ function addGamesToPage(games) {
         let goalPledges = games[game].goal;
         let backers = games[game].backers;
         let image = games[game].img;
-        const template = `<h1>${name}</h1> <p>Pledged: $${pledged}/$${goalPledges} </br>Backers: ${backers}</p>
+        const template = `<h1>${name}</h1> <p>Pledged: $${pledged.toLocaleString('en-US')} / $${goalPledges.toLocaleString('en-US')} </br>Backers: ${backers}</p>
                             <p>Description: ${description}</p>
                             <img class="game-img" src="${image}" alt="Game Image">`;
 
